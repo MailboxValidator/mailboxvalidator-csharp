@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailboxValidatorCSharp", "MailboxValidatorCSharp.csproj", "{63A92667-EF77-4864-8D41-88DC354F51E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMailboxValidatorCSharp", "..\TestMailboxValidatorCSharp\TestMailboxValidatorCSharp.csproj", "{DBB24A43-4190-4E2A-945E-D1009F734D4C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63A92667-EF77-4864-8D41-88DC354F51E4} = {63A92667-EF77-4864-8D41-88DC354F51E4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A92667-EF77-4864-8D41-88DC354F51E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A92667-EF77-4864-8D41-88DC354F51E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A92667-EF77-4864-8D41-88DC354F51E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A92667-EF77-4864-8D41-88DC354F51E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB24A43-4190-4E2A-945E-D1009F734D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB24A43-4190-4E2A-945E-D1009F734D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB24A43-4190-4E2A-945E-D1009F734D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB24A43-4190-4E2A-945E-D1009F734D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
