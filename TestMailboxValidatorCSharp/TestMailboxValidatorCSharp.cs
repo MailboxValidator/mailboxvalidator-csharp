@@ -12,6 +12,7 @@ namespace TestMailboxValidatorCSharp
         public void TestMethod1()
         {
             var mbv = new SingleValidation("PASTE_YOUR_API_KEY_HERE");
+
             String results = "";
             try
             {
@@ -45,6 +46,44 @@ namespace TestMailboxValidatorCSharp
                 }
 
                 results += "version: " + rec.Version + "\n";
+                MessageBox.Show(results);
+
+                results = "";
+
+                MBVResult rec2 = mbv.DisposableEmail("example@example.com");
+
+                if (rec2.ErrorCode == "")
+                {
+                    results += "email_address: " + rec2.EmailAddress + "\n";
+                    results += "is_disposable: " + rec2.IsDisposable + "\n";
+                    results += "credits_available: " + rec2.CreditsAvailable + "\n";
+                }
+                else
+                {
+                    results += "error_code: " + rec2.ErrorCode + "\n";
+                    results += "error_message: " + rec2.ErrorMessage + "\n";
+                }
+
+                results += "version: " + rec2.Version + "\n";
+                MessageBox.Show(results);
+
+                results = "";
+
+                MBVResult rec3 = mbv.FreeEmail("example@example.com");
+
+                if (rec3.ErrorCode == "")
+                {
+                    results += "email_address: " + rec3.EmailAddress + "\n";
+                    results += "is_free: " + rec3.IsFree + "\n";
+                    results += "credits_available: " + rec3.CreditsAvailable + "\n";
+                }
+                else
+                {
+                    results += "error_code: " + rec3.ErrorCode + "\n";
+                    results += "error_message: " + rec3.ErrorMessage + "\n";
+                }
+
+                results += "version: " + rec3.Version + "\n";
                 MessageBox.Show(results);
             }
             catch (Exception ex)
