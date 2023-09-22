@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailboxValidatorCSharp", "MailboxValidatorCSharp\MailboxValidatorCSharp.csproj", "{22E65383-5D9F-4F00-8319-5F423A77AE96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMailboxValidatorCSharp", "TestMailboxValidatorCSharp\TestMailboxValidatorCSharp.csproj", "{464DC3E4-A072-4696-8EDD-C226285D45F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{22E65383-5D9F-4F00-8319-5F423A77AE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22E65383-5D9F-4F00-8319-5F423A77AE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22E65383-5D9F-4F00-8319-5F423A77AE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22E65383-5D9F-4F00-8319-5F423A77AE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464DC3E4-A072-4696-8EDD-C226285D45F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464DC3E4-A072-4696-8EDD-C226285D45F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464DC3E4-A072-4696-8EDD-C226285D45F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464DC3E4-A072-4696-8EDD-C226285D45F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E08EDF4B-86D9-4506-9472-B218A1C1388D}
+		SolutionGuid = {67136BDB-D922-472F-8261-CCF86EFC876B}
 	EndGlobalSection
 EndGlobal
