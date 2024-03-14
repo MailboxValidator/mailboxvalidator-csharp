@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <RootNamespace>MailboxValidator</RootNamespace>
-    <TargetFrameworks>netstandard2.0;net472;net48;net481;net5.0;net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net472;net48;net481;net5.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <AssemblyName>MailboxValidator</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>MailboxValidator.SingleValidation</PackageId>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <Authors>MailboxValidator.com</Authors>
     <Company>MailboxValidator.com</Company>
     <Title>MailboxValidator</Title>
@@ -24,12 +24,12 @@ An API key is required for this library to function.
 
 Go to https://www.mailboxvalidator.com/plans#api to sign up for FREE API plan and you'll be given an API key.
 </Description>
-    <Copyright>Copyright 2023 MailboxValidator.com</Copyright>
+    <Copyright>Copyright 2024 MailboxValidator.com</Copyright>
     <PackageProjectUrl>https://www.mailboxvalidator.com/dotnet</PackageProjectUrl>
     <PackageIcon>mbv-logo-square-128.png</PackageIcon>
     <PackageLicenseFile></PackageLicenseFile>
     <PackageTags>mailboxvalidator .net email-validator email-validation email-checker verify-email</PackageTags>
-    <PackageReleaseNotes>Updated to call MailboxValidator v2 APIs</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated for compatibility with .NET 8</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
