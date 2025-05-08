@@ -6,11 +6,11 @@
 # -- Project information
 
 project = 'MailboxValidator C#'
-copyright = '2024, MailboxValidator'
+copyright = '2025, MailboxValidator'
 author = 'MailboxValidator'
 
-release = '0.1.0'
-version = '0.1.0'
+release = '2.0.2'
+version = '2.0.2'
 
 # -- General configuration
 
@@ -61,4 +61,4 @@ html_favicon = 'images/favicon.ico'
 
 html_title = "MailboxValidator C#"
 
-# html_baseurl = "https://ip2proxy-php.readthedocs.io/en/latest/"
+# html_baseurl = "https://mailboxvalidator-csharp.readthedocs.io/en/latest/"
