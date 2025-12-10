@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <RootNamespace>MailboxValidator</RootNamespace>
-    <TargetFrameworks>netstandard2.0;net472;net48;net481;net5.0;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net472;net48;net481;net5.0;net6.0;net7.0;net8.0;net9.0;net10.0</TargetFrameworks>
     <AssemblyName>MailboxValidator</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>MailboxValidator.SingleValidation</PackageId>
-    <Version>2.0.2</Version>
+    <Version>2.0.3</Version>
     <Authors>MailboxValidator.com</Authors>
     <Company>MailboxValidator.com</Company>
     <Title>MailboxValidator</Title>
@@ -29,7 +29,7 @@ Go to https://www.mailboxvalidator.com/plans#api to sign up for FREE API plan an
     <PackageIcon>mbv-logo-square-128.png</PackageIcon>
     <PackageLicenseFile></PackageLicenseFile>
     <PackageTags>mailboxvalidator .net email-validator email-validation email-checker verify-email</PackageTags>
-    <PackageReleaseNotes>Updated for compatibility with .NET 9</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated for compatibility with .NET 10</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -47,7 +47,7 @@ Go to https://www.mailboxvalidator.com/plans#api to sign up for FREE API plan an
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 

@@ -9,8 +9,8 @@ project = 'MailboxValidator C#'
 copyright = '2025, MailboxValidator'
 author = 'MailboxValidator'
 
-release = '2.0.2'
-version = '2.0.2'
+release = '2.0.3'
+version = '2.0.3'
 
 # -- General configuration
 
